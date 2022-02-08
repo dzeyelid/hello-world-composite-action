@@ -1,0 +1,6 @@
+name: 'Say Hooray'
+description: 'Say hooray'
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Hoooray!!"
